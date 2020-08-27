@@ -1,13 +1,15 @@
 package morejava.Wednesday;
 
-public class Exercise9 {
- 
-    static void primes(int value){
+public class Exercise11 {
+   
+    
+    static void isprime(int num){
         int counter;
-        for(int i = 2; i <= value; i++){
+
+        for(int i = 2; i < num; i++){
             counter = 0;
-            for(int j = 1; j<=i; j++){
-                if(i % j == 0){
+            for(int j = 1; j <= i; j++){
+                if( i % j == 0){
                     counter++;
                 }
             }
@@ -16,11 +18,8 @@ public class Exercise9 {
             }
         }
     }
-
     public static void main(String[] args) {
-        
-        int value = 50;
-
-        primes(value);
+        int num = 83;
+        isprime(num);
     }
 }
