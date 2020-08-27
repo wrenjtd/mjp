@@ -3,7 +3,7 @@ package morejava.Wednesday;
 public class Exercise5 {
     
     static void nthfib(int num){
-        int fibnum = 0;
+        
         if(num == 0) System.out.println(0);
         int a = 0;
         int b = 1;

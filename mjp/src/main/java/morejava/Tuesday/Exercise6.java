@@ -7,9 +7,9 @@ public class Exercise6 {
     static void primeNum(int value) {
         int count;
        
-            for (int i = 2; i < value; i++) {
+            for (int i = 2; i <= value; i++) {
                 count = 0;
-                for (int j = 1; j <= (int) Math.sqrt(value); j++) {
+                for (int j = 1; j <= i; j++) {
                     if (i % j == 0) {
                         count++;
                     }
